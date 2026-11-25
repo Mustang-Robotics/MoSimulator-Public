@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1409438a6844eea96767966da7413b, type: 3}
+  m_Name: MustangRobotics
+  m_EditorClassIdentifier: 
+  teamNumber: 4174
+  teamName: Mustang Robotics
+  robotImage: {fileID: 0}
+  mainRobot:
+    displayName: Man o' War
+    robotPrefab: {fileID: 891169518946205934, guid: 689f6ed15d63644a3b21f0322d82ea45,
+      type: 3}
+    mainMenuPrefab: {fileID: 7409028442738696267, guid: 3bda4c5e2efc4472494e2ba8310f2eb8,
+      type: 3}
+    spawnSelectionPrefab: {fileID: 2091334762109339746, guid: 075e414a779ed431e8ddfb448b47d631,
+      type: 3}
+    preloadGamePiece: {fileID: 0}
+    tutorialCards:
+    - {fileID: 2697239373325561042, guid: 2b61797b6b72f4068b3cd8bc6cca2529, type: 3}
+    - {fileID: 1191238387222784101, guid: a0a38901e490544c99da666016042610, type: 3}
+    - {fileID: 6501973040799731120, guid: 1e9aa0b85150047d98b695b4bbb6f6f2, type: 3}
+  alternateRobots: []
